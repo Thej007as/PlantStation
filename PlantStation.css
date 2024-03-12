@@ -1,0 +1,495 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5ebe0;
+}
+
+.container {
+    width: 53%;
+    height: fit-content;
+    background-color: #8bc6ac;
+    padding-bottom: 50px;
+}
+
+.nav {
+    border: 1px;
+    width: auto;
+    height: auto;
+    list-style: none;
+    padding: 20px;
+    font-size: 1.2rem;
+    margin-left: 45px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 30%;
+    top: 2%;
+    gap: 30px;
+    list-style-type: none;
+    font-size: .9rem;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #032713;
+}
+
+a {
+    text-decoration: none;
+    transition: all .4s ease-in-out;
+    color: #032713;
+}
+
+li:hover a {
+    color: #efece9;
+}
+
+.content {
+    margin-left: 110px;
+}
+
+.content p {
+    font-size: 2.9rem;
+    font-weight: 700;
+    color: #032713;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.content small {
+    font-size: 0.8rem;
+    color: #032713;
+    letter-spacing: 1px;
+}
+
+.btn {
+    border: none;
+    background-color: #11703c;
+    color: #fafafa;
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+#x {
+    border: none;
+    background-color: #11703c;
+    color: #fafafa;
+    width: 170px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 8px;
+    margin-top: 25px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.card {
+    width: 430px;
+    height: 100px;
+    background-color: #fafafa;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.one {
+    margin-left: 20px;
+    color: #032713;
+    padding: 10px;
+    border-right: 2px solid #032713;
+}
+
+.on {
+    margin-left: 30px;
+    color: #032713;
+}
+
+.on p {
+    font-size: 0.8rem;
+}
+
+#two {
+    margin-left: 15px;
+    font-size: 2.5rem;
+}
+
+.one p {
+    font-size: 0.8rem;
+}
+
+.card1 img {
+    position: absolute;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 835px;
+    height: 450px;
+    /* border: 1px solid #dddddd; */
+    left: 45%;
+    top: 12%;
+    image-rendering: optimizeQuality;
+    filter: saturate(1.5) contrast(115%);
+    cursor: pointer;
+}
+
+.card2 img {
+    position: absolute;
+    background-color: #f0f0f0;
+    border-radius: 0% 20% 0% 20%;
+    filter: contrast(90%) saturate(2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 140px;
+    height: 190px;
+    /* border: 1px solid #dddddd; */
+    left: 40%;
+    top: 8%;
+    cursor: pointer;
+}
+
+.card3 img {
+    position: absolute;
+    background-color: #f0f0f0;
+    border-radius: 20% 0% 20% 0%;
+    filter: contrast(90%) saturate(2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 140px;
+    height: 190px;
+    /* border: 1px solid #dddddd; */
+    left: 40%;
+    top: 50%;
+    cursor: pointer;
+}
+
+.search input[type=text] {
+    outline: none;
+    padding: 8px;
+    width: 200px;
+    height: 5px;
+    border: 1px solid #11703c;
+    border-radius: 40px;
+    background-color: #f5ebe0;
+}
+
+.search {
+    position: absolute;
+    left: 67%;
+    top: 2%;
+}
+
+.search button {
+    background-color: #11703c;
+    border: none;
+    width: 30px;
+    height: 25px;
+    padding: 5px;
+    color: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blue {
+    width: 300px;
+    height: 250px;
+    margin-top: 100px;
+    margin-left: 15%;
+    margin-bottom: 40px;
+    background-color: #8bc6ac;
+    border-radius: 10% 40% 10% 40%;
+}
+
+.img4 {
+    position: absolute;
+    top: 94%;
+    left: 16%;
+    mix-blend-mode: multiply;
+    z-index: 2;
+}
+
+.img4 img {
+    width: 280px;
+    height: 250px;
+    filter: contrast(140%) saturate(2.5);
+}
+
+.info {
+    position: absolute;
+    left: 40%;
+    top: 90%;
+    height: 250px;
+}
+
+.info h3 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.info p {
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.price h3 {
+    margin-left: 35%;
+    top: 130%;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.price p {
+    margin-left: 29%;
+    font-size: 0.7rem;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    margin-bottom: 0;
+    word-spacing: 2px;
+}
+
+.card-list {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+.list {
+    width: 400px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.list>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30% 30% 70% 70%;
+    filter: contrast(90%) saturate(2);
+    cursor: pointer;
+}
+
+.con {
+    position: absolute;
+    bottom: -100px;
+    left: 40px;
+    color: #f0f0f0;
+    transition: all 0.3s ease-in-out;
+}
+
+.list:hover .con {
+    bottom: 10px;
+    left: 35%;
+}
+
+.list:hover img {
+    filter: contrast(90%) saturate(2);
+    filter: brightness(0.4);
+}
+
+.sub {
+    margin-top: 60px;
+    border: 1px;
+    background-color: #8bc6ac;
+    padding: 30px;
+    display: flex;
+    cursor: pointer;
+}
+
+.sub-img img {
+    /* border: 1px solid black; */
+    filter: contrast(90%) saturate(2);
+    border-radius: 30% 30% 30% 30%;
+}
+
+.sub-info {
+    margin-left: 140px;
+}
+
+.sub-info h3 {
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+.sub-info p {
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.subscribe {
+    background-color: #f0f0f0;
+    width: 275px;
+    height: 21px;
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.subscribe input[type=text] {
+    border: none;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    background-color: #f0f0f0;
+}
+
+#btn2 {
+    border: none;
+    border-radius: 15px;
+    background-color: #11703c;
+    color: #fafafa;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    width: 100px;
+    height: 23px;
+}
+
+.review h3 {
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-top: 60px;
+    margin-left: 520px;
+}
+
+.review p {
+    font-size: 0.8rem;
+    letter-spacing: 1.3px;
+    line-height: 1.5;
+    margin-bottom: 0;
+    margin-left: 480px;
+}
+
+.reviews {
+    display: flex;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+.rev {
+    background-color: #8bc6ac;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 320px;
+    border: 1px solid #dddddd;
+}
+
+.rev img {
+    border-radius: 5px;
+    max-width: 100%;
+    aspect-ratio: 3/2;
+    filter: contrast(90%) saturate(2);
+}
+
+.rev h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.rev p {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.customer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.cus {
+    width: 350px;
+    height: 150px;
+    /* border: 1px solid rgb(150, 146, 146); */
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.cus>img {
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding: 15px;
+}
+
+.name>p {
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+.name>small {
+    margin-bottom: 0;
+    color: #a9a9a9;
+}
+
+.name>span {
+    float: right;
+    margin-right: 20px;
+}
+
+#star {
+    color: #ecec45;
+}
+
+.cus-rev {
+    font-size: 0.8rem;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+footer {
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    background-color: #8bc6ac;
+    cursor: pointer;
+}
+
+.footer {
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.9rem;
+    line-height: 1.8;
+}
+
+.links {
+    text-align: center;
+    line-height: 2;
+}
+
+.view h3 {
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-top: 60px;
+    margin-left: 520px;
+}
+
+.view p {
+    font-size: 0.8rem;
+    letter-spacing: 1.3px;
+    line-height: 1.5;
+    margin-bottom: 0;
+    margin-left: 480px;
+}
